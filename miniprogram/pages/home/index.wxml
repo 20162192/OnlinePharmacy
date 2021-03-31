@@ -1,0 +1,29 @@
+<view class="home_view">
+
+  <view class="btn" catchtap="clickTab">获取信息</view>
+
+  <view class="btn" catchtap="login">登录</view>
+
+  <button class="btn" catchtap="goLogin">登录流程</button>
+
+  <view class="btn" catchtap="chooseContact">选择联系人</view>
+
+  <view class="btn" catchtap="toShowClass">筛选</view>
+
+  <view class="btn" catchtap="toPromise">promise</view>
+
+  <view class="btn" catchtap="toShowAddress">打开地图</view>
+  
+  <view class="btn" catchtap="onLocationChange">实时位置</view>
+
+  <!-- 分类弹窗 -->
+  <page-container show="{{classShow}}" position="right" bind:beforeenter="beforeenter" bind:enter="enter">
+    <view class="class_box">我是页面容器</view>
+    <view class="btn" catchtap="toHiddenClass">关闭</view>
+  </page-container>
+
+  <!-- 无内容 -->
+  <view class="list_null" wx:if="{{ isNull }}">
+    <image src="/image/isNull/content.png" class="null_img" mode="widthFix" />
+  </view>
+</view>

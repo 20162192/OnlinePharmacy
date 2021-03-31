@@ -1,0 +1,6 @@
+<view class="cart_view">
+
+  <view class="list_null">
+    <image src="/image/isNull/cart.png" class="null_img" mode="widthFix" />
+  </view>
+</view>

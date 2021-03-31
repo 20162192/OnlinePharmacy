@@ -1,0 +1,30 @@
+.list_null {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.null_tip {
+  font-size: 28rpx;
+  color: #999;
+  text-align: center;
+}
+
+.btn {
+  width: 200rpx !important;
+  height: 80rpx;
+  text-align: center;
+  line-height: 80rpx;
+  background-color: #1E90FF;
+  border-radius: 16rpx;
+  color: #fff;
+  margin: 20rpx auto 0;
+  padding: 0;
+}
+
+/* 分类容器 */
+.class_box {
+  background-color: #876555;
+}
