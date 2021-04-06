@@ -1,6 +1,9 @@
 <view class="home_view">
+  <view wx:for="{{list}}" wx:key="index">
+    <goods-item item="{{item}}"></goods-item>
+  </view>
 
-  <view class="btn" catchtap="clickTab">获取信息</view>
+  <!-- <view class="btn" catchtap="clickTab">获取信息</view>
 
   <view class="btn" catchtap="login">登录</view>
 
@@ -14,7 +17,7 @@
 
   <view class="btn" catchtap="toShowAddress">打开地图</view>
   
-  <view class="btn" catchtap="onLocationChange">实时位置</view>
+  <view class="btn" catchtap="onLocationChange">实时位置</view> -->
 
   <!-- 分类弹窗 -->
   <page-container show="{{classShow}}" position="right" bind:beforeenter="beforeenter" bind:enter="enter">

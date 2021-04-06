@@ -7,6 +7,26 @@ Page({
   data: {
     classShow: false, // 分类弹窗是否展示
     isNull: false, // 数据为空
+    list: [
+      {
+        id: 1,
+        img: 'https://img.alicdn.com/imgextra/i4/2928278102/O1CN01rXEqww29ilb0H0Fgq_!!2928278102-0-sm.jpg_430x430q90.jpg',
+        name: '药品名称',
+        price: 5.30
+      },
+      {
+        id: 2,
+        img: 'https://img.alicdn.com/imgextra/i2/2928278102/O1CN01VMKmzb29ilb4VNTVt_!!2928278102-0-sm.jpg_430x430q90.jpg',
+        name: '中国香港京都念慈菴蜜炼川贝枇杷膏300ml润肺止咳糖浆感冒咳嗽药',
+        price: 48.00
+      },
+      {
+        id: 3,
+        img: 'https://img.alicdn.com/imgextra/i1/2928278102/O1CN01JWmsv329ilasQSsfF_!!2928278102-0-sm.jpg_430x430q90.jpg',
+        name: '前列康片60片普乐安片前列腺炎增生尿频尿急前列康胶囊补肾',
+        price: 119.00
+      }
+    ] //商品列表
   },
 
   /**

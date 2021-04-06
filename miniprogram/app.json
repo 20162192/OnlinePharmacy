@@ -1,16 +1,18 @@
 {
   "pages": [
+    "pages/home/index",
     "pages/index/index",
     "pages/logs/logs",
-    "pages/home/index",
-    "pages/cart/index"
+    "pages/cart/index",
+    "pages/goods/index"
   ],
   "tabBar": {
     "color": "#666666",
     "selectedColor": "#666666",
     "borderStyle": "black",
     "backgroundColor": "#ffffff",
-    "list": [{
+    "list": [
+      {
         "pagePath": "pages/home/index",
         "text": "主页",
         "iconPath": "image/root/home_0.png",
@@ -38,7 +40,7 @@
   },
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#1E90FF",
+    "navigationBarBackgroundColor": "#1F75F4",
     "navigationBarTitleText": "药坊",
     "navigationBarTextStyle": "black"
   },
