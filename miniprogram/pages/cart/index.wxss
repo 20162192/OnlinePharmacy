@@ -1,3 +1,8 @@
+.cart_view {
+  width: 100vw;
+  padding-bottom: 220rpx;
+}
+
 .list_null {
   width: 100vw;
   height: 100vh;

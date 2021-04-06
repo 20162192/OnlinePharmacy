@@ -1,1 +1,18 @@
-<text>miniprogram/pages/goods/index.wxml</text>
+<view class="goods-box">
+  <image src="{{info.img}}" class="goods-img" />
+  <view class="name">{{info.name}}</view>
+  <view class="price">￥{{info.price}}</view>
+  <view class="line"></view>
+
+  <view class="des">
+    药品描述：{{info.des}}
+  </view>
+  <view class="tip">
+    {{tip}}
+  </view>
+
+  <view class="btn-box">
+    <view class="call-btn" catchtap="call">联系客服</view>
+    <view class="buy-btn" catchtap="addBuy">加入购物车</view>
+  </view>
+</view>

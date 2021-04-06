@@ -1,5 +1,7 @@
 {
   "usingComponents": {
-    "goods-item": "/components/goodsItem/index"
+    "goods-item": "/components/goodsItem/index",
+    "search": "/components/search/index",
+    "swiperTop": "/components/swiperTop/index"
   }
 }

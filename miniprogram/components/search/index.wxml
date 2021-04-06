@@ -1,0 +1,6 @@
+<view class="search-box">
+  <view class="input-box">
+    <input type="text" class="input" value="{{value}}" placeholder="请输入药品名称" bindinput="input" />
+  </view>
+  <view class="btn" catchtap="goSearch">搜索</view>
+</view>

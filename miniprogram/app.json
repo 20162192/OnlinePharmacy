@@ -4,7 +4,8 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/cart/index",
-    "pages/goods/index"
+    "pages/goods/index",
+    "pages/list/index"
   ],
   "tabBar": {
     "color": "#666666",
@@ -40,7 +41,7 @@
   },
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#1F75F4",
+    "navigationBarBackgroundColor": "#1E90FF",
     "navigationBarTitleText": "药坊",
     "navigationBarTextStyle": "black"
   },

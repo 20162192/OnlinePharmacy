@@ -1,9 +1,5 @@
-.list_null {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.home_view {
+  padding-bottom: 80rpx;
 }
 
 .null_tip {
@@ -27,4 +23,9 @@
 /* 分类容器 */
 .class_box {
   background-color: #876555;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
 }

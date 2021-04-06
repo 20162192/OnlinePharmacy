@@ -1,6 +1,12 @@
 <view class="cart_view">
 
-  <view class="list_null">
+  <!-- 购物车列表 -->
+  <view class="list">
+    <buy-item wx:for="{{list}}" wx:key="index" item="{{item}}"></buy-item>
+  </view>
+
+  <!-- 购物车为空 -->
+  <view class="list_null" wx:if="{{isNull}}">
     <image src="/image/isNull/cart.png" class="null_img" mode="widthFix" />
   </view>
 </view>

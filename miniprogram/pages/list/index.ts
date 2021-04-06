@@ -1,10 +1,11 @@
-// miniprogram/pages/home/index.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
+    value: '', // 搜索内容
+    from: 'list', // 搜索子组件
     isNull: false, // 数据为空
     list: [
       {
@@ -31,8 +32,10 @@ Page({
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad: function () {
-
+  onLoad: function (options) {
+    this.setData({
+      value: options.value
+    })
   },
 
   /**
@@ -82,5 +85,11 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+  // 搜索
+  goSearch(e: any) {
+    this.setData({
+      value: e.detail
+    })
   }
 })

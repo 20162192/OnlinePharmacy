@@ -1,0 +1,42 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "主页",
+          "pathName": "pages/home/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "药品详情",
+          "pathName": "pages/goods/index",
+          "query": "id=1",
+          "scene": null
+        },
+        {
+          "name": "商品列表",
+          "pathName": "pages/list/index",
+          "query": "id=1",
+          "scene": null
+        },
+        {
+          "name": "购物车",
+          "pathName": "pages/cart/index",
+          "query": "id=1",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

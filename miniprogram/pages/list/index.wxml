@@ -1,0 +1,13 @@
+<!-- 顶部搜索 -->
+<view class="top-search">
+  <search from="{{from}}" value="{{value}}" bind:goSearch="goSearch"></search>
+</view>
+
+<!-- 商品列表 -->
+<view class="list">
+    <goods-item wx:for="{{list}}" wx:key="index" item="{{item}}"></goods-item>
+  </view>
+<!-- 无内容 -->
+<view class="list_null" wx:if="{{ isNull }}">
+  <image src="/image/isNull/content.png" class="null_img" mode="widthFix" />
+</view>

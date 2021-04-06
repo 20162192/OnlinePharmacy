@@ -1,0 +1,15 @@
+.swiper-box {
+  width: 686rpx;
+  height: 350rpx;
+  margin: 20rpx auto 0;
+}
+
+.swiper {
+  width: 686rpx;
+  height: 350rpx;
+}
+
+.img {
+  width: 686rpx;
+  height: 350rpx;
+}

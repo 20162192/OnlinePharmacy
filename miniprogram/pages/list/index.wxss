@@ -1,0 +1,19 @@
+.top-search {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 120rpx;
+}
+
+.list_null {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
