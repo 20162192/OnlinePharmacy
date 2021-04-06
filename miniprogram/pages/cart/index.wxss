@@ -16,3 +16,41 @@
   color: #999;
   text-align: center;
 }
+
+.btn-box {
+  width: 750rpx;
+  height: 120rpx;
+  box-shadow: 0 4rpx 20rpx 4rpx rgba(167, 184, 214, 0.15);
+
+  position: fixed;
+  left: 0;
+  bottom: 0;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.sum {
+  font-size: 32rpx;
+  color: #FF4A3B;
+  margin-right: 32rpx;
+}
+
+.price {
+  font-size: 36rpx;
+  font-weight: 600;
+}
+
+.buy-btn {
+  width: 220rpx;
+  height: 80rpx;
+  border-radius: 40rpx;
+  background-color: #1E90FF;
+
+  line-height: 80rpx;
+  color: #fff;
+  text-align: center;
+  font-size: 32rpx;
+  margin-right: 20rpx;
+}

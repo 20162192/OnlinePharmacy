@@ -5,6 +5,14 @@
     <buy-item wx:for="{{list}}" wx:key="index" item="{{item}}"></buy-item>
   </view>
 
+  <view class="btn-box">
+    <view class="sum">
+      合计：￥
+      <text class="price">0.00</text>
+    </view>
+    <view class="buy-btn">提交订单</view>
+  </view>
+
   <!-- 购物车为空 -->
   <view class="list_null" wx:if="{{isNull}}">
     <image src="/image/isNull/cart.png" class="null_img" mode="widthFix" />
